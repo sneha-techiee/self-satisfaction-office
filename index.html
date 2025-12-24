@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self-Satisfaction Office</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SCREEN 1 -->
+    <div class="card active" id="screen1">
+        <h1>🌿 Self-Satisfaction Office™</h1>
+        <p class="subtitle">
+            We don’t fix problems.<br>
+            We acknowledge them professionally.
+        </p>
+        <button onclick="goToScreen(2)">📝 Submit a thought</button>
+    </div>
+
+    <!-- SCREEN 2 -->
+    <div class="card" id="screen2">
+        <h2>What’s on your mind?</h2>
+        <textarea id="feelingInput" placeholder="Type honestly. No one is judging."></textarea>
+        <button onclick="processFeeling()">Continue</button>
+    </div>
+
+    <!-- SCREEN 3 -->
+    <div class="card" id="screen3">
+        <h2>Do you know why you feel this way?</h2>
+        <div class="options">
+            <button onclick="setWhy(true)">Yes, I think so</button>
+            <button onclick="setWhy(false)">Not really</button>
+        </div>
+    </div>
+
+    <!-- SCREEN 4 -->
+    <div class="card" id="screen4">
+        <div id="resultCard"></div>
+        <button onclick="restart()">↺ Start again</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
