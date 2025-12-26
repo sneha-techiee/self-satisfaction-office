@@ -1,3 +1,6 @@
+<img width="1768" height="837" alt="Screenshot 2025-12-26 143039" src="https://github.com/user-attachments/assets/bf2f0ade-a5fc-415c-8f42-3ef8e13921dd" />
+![self_satisfaction](https://github.com/user-attachments/assets/7d1f89ae-6e34-486f-9dea-aa82bde7255c)
+![self_satisfaction](https://github.com/user-attachments/assets/e3cad09d-cfd8-4d26-8a7c-90ea91ea3c39)
 🧠 Self-Satisfaction Office
 
 No fixing. Just being heard.
